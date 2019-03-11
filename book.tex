@@ -1,0 +1,208 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a simple template for a LaTeX document using the "article" class.
+% See "book", "report", "letter" for other types of document.
+
+\documentclass[14pt]{article} % use larger type; default would be 10pt
+\usepackage[14pt]{extsizes}
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+\usepackage[T2A]{fontenc}  %поддержка кириллицы в ЛаТеХ
+
+\usepackage[titletoc]{appendix}
+%%% Examples of Article customizations
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+\geometry{left=30mm, top=20mm, bottom=20mm, right=15mm} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+
+\usepackage[final]{graphicx} % support the \includegraphics command and options
+\usepackage{epstopdf}
+\let\bibsection\relax
+\usepackage{amsmath}
+
+%\usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+
+%%% PACKAGES
+\usepackage{amsfonts} %for \mathbb
+\usepackage{amssymb}
+\usepackage{dsfont}
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+\usepackage[english, russian]{babel}
+\usepackage[hidelinks]{hyperref}
+\usepackage{bookmark}
+\usepackage{euscript}
+\usepackage{caption}
+\usepackage{pbox}
+\usepackage[square,numbers]{natbib}
+\setcitestyle{authoryear, open={[},close={]}}
+% These packages are all incorporated in the memoir class to one degree or another...
+%\usepackage{tempora}
+\let\bibhang\relax
+\let\citename\relax
+\let\bibfont\relax
+\let\Citeauthor\relax
+\let\bibsection\relax
+\expandafter\let\csname ver@natbib.sty\endcsname\relax
+\usepackage[backend=bibtex,style=numeric]{biblatex}  %backend=biber is 'better'  
+
+\addbibresource{kursach.bib}
+
+\graphicspath{{img/}}
+
+\usepackage{amsmath}
+\usepackage{amstext}
+%\usepackage{amssymb}
+%\usepackage{bm}
+%\usepackage{caption}
+%\usepackage{color}
+%\usepackage{epigraph}
+%\usepackage{epsfig}
+%\usepackage{float}
+%\usepackage{gensymb}
+%\usepackage{graphicx}
+%\usepackage{hyperref}   
+%\usepackage{mathtools}
+%\usepackage{lipsum}
+\usepackage{lscape}
+\usepackage{setspace}
+%\usepackage{indentfirst,latexsym}
+%\usepackage{physics}
+%\usepackage{setspace}
+%\usepackage{subcaption}
+
+%\onehalfspacing
+
+\usepackage{xspace}
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+
+%%% SECTION TITLE APPEARANCE
+%\usepackage{sectsty}
+%\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+\linespread{1.5}
+
+\usepackage{indentfirst}
+\usepackage{amssymb}
+%%% END Article customizations
+
+
+
+%\textheight 25.7cm % 29.7-2-2=25.7
+%\textwidth 17cm % 21-2.5-1.5=17.0
+%\hoffset -0.04cm %2.5-2.54=-0.04 слева 3см
+%\voffset -1.04cm %2-2.54=0.54 сверху 2см
+%\oddsidemargin 0cm
+%\headheight 0cm
+%\headsep 0cm
+%\topmargin 0cm
+%\setcounter{page}{1}
+\def\sigspace{\\[1em]
+\underline{\hspace{5cm}}\\[-0.2em]}
+
+\usepackage{color,colortbl}
+
+\definecolor{darkishgreen}{RGB}{39,203,22}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\definecolor{Gray}{gray}{0.9}
+
+\newcolumntype{g}{>{\columncolor{Gray}}c}
+\newcolumntype{d}{>{\columncolor{darkishgreen}}c}
+
+
+\begin{document}
+
+\begin{titlepage}
+	\begin{center}
+		{
+		{\bf Санкт-Петербургский Государственный Университет\\
+		\vskip 1em
+		Астрономия\\
+		Астрометрия} }
+
+	\vspace{2cm}
+    	
+	{\large А.С.\,Патшин}
+    
+    \vskip 1em
+    
+	\Large{\Huge \bf{Гарри Поттер}\\ \large и \\ \LARGE \bf{Сравнение тригонометрических параллаксов звезд TGAS и Hipparcos}}
+    \vskip 1em
+    {\normalsize {Дипломная работа}\\}
+	\end{center}
+	
+	\vskip 3em
+    
+	{
+		 \begin{flushright}
+			Научный руководитель:\\
+		    доцент А.С.\,Цветков \sigspace
+		    Рецензент:\\
+		    PhD. З.М.\,Малкин \sigspace
+		\end {flushright}
+	}
+
+	\vfill
+	\begin{center}
+	\small {Санкт-Петербург
+
+	2018}
+	\end{center}
+\end{titlepage}
+
+\newpage
+\tableofcontents
+\newpage
+
+
+
+ 
+\section{Введение}\label{introduction}
+
+\begin{verse} Здесь любит медведь\\ Иногда посидеть\\ И подумать: ``А чем бы такое заняться?'' \end{verse}
+
+\subsection{Общие сведения о проекте}\label{sub:smthhip}
+
+sub
+
+\section{Заключение}\label{conclusion}
+Звезды по HIP ближе на $6\%$.
+
+
+\newpage
+\section{Список использованной литературы}\label{conclusionlit}
+%\bibliographystyle{unsrt}
+%\bibliography{kursach.bib}
+\printbibliography[type=online,title={Сайты}]
+\printbibliography[type=book,title={Статьи:}]
+
+
+\appendix
+
+\section*{Приложение}
+
+\newpage
+
+\end{document}
