@@ -1,7 +1,6 @@
 all : ps.pdf
 
 ps.pdf : ps.tex ps.adx ps.tdx
-
 	pdflatex ps.tex
 
 ps.adx : ps.tex 
