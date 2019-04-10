@@ -1,0 +1,168 @@
+% Copyright (C) 2018 Kevin W. Hamlen
+%
+% This program is free software; you can redistribute it and/or
+% modify it under the terms of the GNU General Public License
+% as published by the Free Software Foundation; either version 2
+% of the License, or (at your option) any later version.
+%
+% This program is distributed in the hope that it will be useful,
+% but WITHOUT ANY WARRANTY; without even the implied warranty of
+% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+% GNU General Public License for more details.
+%
+% You should have received a copy of the GNU General Public License
+% along with this program; if not, write to the Free Software
+% Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+% MA  02110-1301, USA.
+%
+% The latest version of this program can be obtained from
+% http://songs.sourceforge.net.
+
+
+\beginsong{\subsection{Белая Гвардия}}[
+	by={Белая Гвардия},
+	sr={}
+	]
+\beginverse
+К\[Dm]огда зимой х\[G]олодною в кр\[C]ещенские м\[Am]орозы,
+\chordsoff
+Щебечет песню соловей, и распускаются мимозы,
+Когда взлетаешь к небесам и там паришь, пугая звезды,
+А над окном твоим совьют какие-нибудь птицы гнезда.
+Когда девчонка толстая журнал приобретает "Мода",
+И снит, как будто юноши ей в школе не дают прохода,
+Когда милиционер усатый вдруг улыбнется хулигану
+И поведет его под руки, но не в тюрьму, а к ресторану.
+\endverse
+\beginchorus
+З\[F]най, это л\[Fm]юбовь, с ней рядом А\[Fm]мур крыльями машет,
+З\[F]най, это л\[Fm]юбовь, сердце \[C]не прячь, А\[G]мур не промажет.
+\endchorus
+\beginverse
+\chordsoff
+Когда мальчишка на асфальте мелом пишет чье-то имя,
+Когда теленок несмышленый губами ищет мамки вымя,
+Когда веселый бригадир доярку щиплет возле клуба,
+Когда солдатик лысенький во сне целует друга губы,
+Когда безродная дворняга взобраться хочет на бульдога,
+Когда в купаловскую ночь две пары ног торчат из стога,
+Когда седой профессор под дождем по лужам резво скачет,
+А зацелованная им девчонка над пятеркой плачет...
+\endverse
+\beginchorus
+\endchorus
+\beginverse
+\[Dm]Любовь зимой п\[F]риходит в п\[G]латье бе\[Am]лом,
+\chordsoff
+Весной любовь приходит в платье голубом,
+Любовь приходит летом в платьице зеленом,
+А осенью любовь приходит в золотом
+Любовь приходит летом в платьице зеленом,
+А осенью любовь приходит в золотом
+\endverse
+\beginchorus
+\endchorus
+\endsong
+
+
+\beginsong{\subsection{Воины света}}[
+	by={Ляпис Трубецкой},
+	sr={},
+	cr={}]
+\beginverse
+\[Am]Рубиновые части с\[F]олнца зари;
+\[G]Рубят злые страсти, сжиг\[C]ают внутри.;
+\chordsoff
+Рубят злые страсти, сжигают внутри;
+Прыгай выше неба, брат и сестра;
+Золотые искры – брызги костра;
+Радуйся молоту в крепкой руке;
+Водопад - молодость в быстрой реке;
+Бей барабан – пам, пам;
+Баррикады, друзья, шум, гам;
+\endverse
+\beginchorus
+\[Am]Воины света, вои\[F]ны добра;
+\[G]Охраняют лето, бью\[C]тся до утра;
+\[Am]Воины добра, вои\[F]ны света,;
+\[G]Джа Растафарай бьются до рассвета.;
+\endchorus
+\beginverse
+^Плачет солдат, мед^аль на гимнастёрке.
+^Сколько ребят в пол^ыни на пригорке?
+\chordsoff
+За тучей дракон – каменное сердце.
+Ночью закон: руби, чтобы согреться.
+Радуйся молоту в крепкой руке.
+Водопад - молодость в быстрой реке.
+Бей барабан – пам, пам.
+Баррикады, друзья, шум, гам.
+\endverse
+\beginchorus
+\endchorus
+\beginverse
+\ifchorded
+\chordsoff
+Воины света, воины добра
+Охраняют лето, бьются до утра.
+Воины добра, воины света,
+\chordson
+\[G]Джа Растафарай о\[C]храняют лето.
+\else
+\chordsoff
+Воины света, воины добра
+Охраняют лето, бьются до утра.
+Воины добра, воины света,
+\[G]Джа Растафарай о\[C]храняют лето.
+\fi
+\endverse
+\beginchorus
+\endchorus
+\endsong
+\ifchorded
+\begin{figure}[b!]
+\flushright{\includegraphics[scale=0.3]{1}}
+\end{figure}
+\fi 
+
+
+\beginsong{\subsection{Вечер бродит}}[
+	by={},
+	sr={},
+	cr={}]
+\beginverse*
+\[Am]Вечер \[Dm]бродит по \[E]лесным \[Am]дорожкам...
+Ты ведь \[Dm]тоже любишь \[G]вече\[C]ра.
+\[A7]Подож\[Dm]ди, пос\[G]той еще \[C]немножко,
+По\[Am]сидим с \[Dm]товарищами \[Е]у кост\[Am]ра.
+\endverse
+\beginverse*\chordsoff
+Видишь целый мир в глазах тревожных
+В этот час на берегу крутом.
+Не смотри ты так неосторожно -
+Я могу подумать что-нибудь не то.
+\endverse
+\beginverse*\chordsoff
+Вслед за песней позовут ребята
+В неизвестные еще края,
+И тогда над крыльями заката
+Вспыхнет яркой звездочкой мечта моя.
+\endverse
+\beginverse*\chordsoff
+Ясный месяц на прогулку вышел,
+Смотрят звезды из голубых небес.
+Друг хороший, ты меня услышишь,
+Эту песню я пою сейчас тебе.
+\endverse
+\beginverse*\chordsoff
+Знаю - будут и другие встречи,
+Год за годом пролетят года.
+Но вот этот тихий летний вечер
+Мы с тобою не забудем никогда
+\endverse
+\endsong
+\begin{figure}[b!]
+\flushright{\includegraphics[scale=0.3]{3}}
+\end{figure}
+
+

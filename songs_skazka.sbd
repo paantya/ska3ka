@@ -1,0 +1,195 @@
+% Copyright (C) 2018 Kevin W. Hamlen
+%
+% This program is free software; you can redistribute it and/or
+% modify it under the terms of the GNU General Public License
+% as published by the Free Software Foundation; either version 2
+% of the License, or (at your option) any later version.
+%
+% This program is distributed in the hope that it will be useful,
+% but WITHOUT ANY WARRANTY; without even the implied warranty of
+% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+% GNU General Public License for more details.
+%
+% You should have received a copy of the GNU General Public License
+% along with this program; if not, write to the Free Software
+% Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+% MA  02110-1301, USA.
+%
+% The latest version of this program can be obtained from
+% http://songs.sourceforge.net.
+
+
+%\beginsong{\subsection{макет}}[
+%	by={Автор},
+%	sr={Инфа о песне или дорожке(можно не заполнять)},
+%	cr={всякие авторские права(можно не заполнять)}]]
+%\beginverse*
+%\ifchorded
+%	{\nolyrics Проигрыш: \[G] \[A] \[D]}
+%\fi 
+%\endverse
+
+%\beginverse
+%Тут пошёл куплет
+%Т\[Dm]ут текст с аккордами
+%\chordsoff
+%А тут уже без
+%вот видите
+%\endverse
+
+%\beginchorus
+%Это припев
+%\endchorus
+
+%\gtab{Am}{X02210}
+%\gtab{F}{:133211:}
+%\endsong
+
+
+\beginsong{\subsection{Вожатский Гимн}}[
+	by={}]
+\beginverse*
+По \[Am]лагерю подъём, нас горн зовёт!
+Забудь о том, что ночь была бесс\[C]онною
+Смоч\[Dm]и водою в\[G]еки воспал\[C]ённы\[F]е
+Пов\[Dm]язывай свой г\[E]алстук — и впе\[Am(A7)]рёд!
+Смоч\[Dm]и водою в\[G]еки воспал\[C]ённы\[F]е
+Пов\[Dm]язывай свой г\[E]алстук — и впе\[Am(A7)]рёд!
+\endverse
+\beginchorus	
+Непр\[E]осто воспитывать н\[Am]овых людей,
+Ну чт\[E]о ж, это наша с тоб\[Am]ою свят\[A7]ыня.
+Мой д\[Dm]руг, нам дов\[G]ерили д\[C]уши дет\[F]ей,
+Их р\[Dm]адостный см\[Am]ех нам нагр\[E]ада отн\[Am]ыне.
+Мой д\[Dm]руг, нам дов\[G]ерили д\[C]уши дет\[F]ей,
+Их р\[Dm]адостный см\[Am]ех нам нагр\[E]ада отн\[Am]ыне.
+\endchorus
+\beginverse*\chordsoff
+Отбой, засыпает детвора.
+Взгляни на их улыбки полусонные,
+Пускай им снятся острова зелёные,
+А нам опять работать до утра!
+Пускай им снятся острова зелёные,
+А нам опять работать до утра!
+\endverse
+\beginchorus\chordsoff
+И пусть от бессилья затихнешь не раз,
+И голос усталый до хрипа натружен,
+Пусть будут умней и счастливее нас
+Те дети, в которых вложили мы души!
+Пусть будут умней и счастливее нас
+Те дети, в которых вложили мы души!
+\endchorus
+\endsong
+
+\beginsong{\subsection{Сказка в неглиже}}[
+	by={}]
+\beginverse \[]
+Есть у \[C]каждого добрая сказка в ду\[F]ше,
+Надо \[G]только прочесть этой сказки стра\[C]ницы.
+В тиши\[C]не, разо\[C7]детая вся в негли\[F]же,
+Пусть на\[G]веки она, пусть на\[F]веки она сохра\[C]нится. \[C7] 
+В тиши\[F]не, разо\[G]детая вся в негли\[C]же, \[Am]
+Пусть на\[F]веки она, пусть на\[G]веки она сохра\[C]нится.
+\endverse
+\beginverse
+\chordsoff
+Эту сказку пред другом раскрыть поспеши,
+А врагу не спеши эту сказку поведать.
+Пусть растут и читают ее малыши.
+Будь добрей, и тебя минут всякие беды.
+Пусть растут и читают ее малыши.
+Будь добрей, и тебя минут всякие беды.
+\endverse
+\beginverse
+\[C7] Будет \[F]много распутий, \[G]дорог и тре\[C]вог,\[Am]
+На вис\[F]ки твои ляжет \[G]нетающий \[C]иней,\[C7]
+И пой\[F]мёшь, научившись чит\[G]ать между ст\[C]рок:\[Am]
+Даже \[F]гнусный злодей \[G]в этой сказке не\[C]винен. \[C7]
+И пой\[F]мёшь, научившись чи\[G]тать между ст\[C]рок:\[A]
+Даже \[F]гнусный злодей \[G]в этой сказке не\[C]винен.
+\endverse
+\beginverse*
+\ifchorded
+	{\nolyrics \[C] \[G] \[F] \[G] \[C] \[C7]}
+	{\nolyrics \[C] \[G] \[F] \[G] \[C]}
+\fi
+\endverse
+\endsong
+
+\beginsong{\subsection{Вожатский Марш}}[
+	by={}]
+\beginverse
+Есть на\[Am]род у нас весёлый,
+Самой \[C]лучшей в мире пробы,
+Песни \[G]петь всегда мас\[C]так.\[A7]
+Он всег\[Dm]да всего добьётся,
+Он Во\[Am]жатыми зовётся,
+\[E]Так и только \[Am (A7)]так!
+Он всег\[Dm]да всего добьётся,
+Он Во\[Am]жатыми зовётся,
+\[E]Так и только \[Am (A7)]так!
+ \endverse
+\beginverse
+\chordsoff
+Домосед привязан к дому
+И по случаю такому,
+Он из дома — ни на шаг!
+А вожатый — он в дороге,
+Он готов в огонь и в воду,
+Так и только так!
+А вожатый — он в дороге,
+Он готов в огонь и в воду,
+Так и только так!
+ \endverse
+\beginverse
+\chordsoff
+Жадный денежки считает,
+Все считает и считает,
+К пятаку кладет пятак.
+А вожатый деньги тратит,
+Не боясь, что их не хватит,
+Так и только так!
+А вожатый деньги тратит,
+Не боясь, что их не хватит,
+Так и только так!
+ \endverse
+\beginverse
+\chordsoff
+Холостяк в любовь не верит,
+Все не верит и не верит,
+Потому что холостяк.
+А вожатых не влюблённых
+Не найдёшь определённо,
+Так и только так!
+А вожатых не влюблённых
+Не найдёшь определённо,
+Так и только так!
+ \endverse
+ \endsong
+
+\beginsong{\subsection{макет}}[
+	by={Автор}]
+\beginverse*
+\ifchorded
+	{\nolyrics Проигрыш: \[G] \[A] \[D]}
+\fi
+\endverse
+
+\beginverse
+Тут пошёл куплет
+Т\[Dm]ут текст с аккордами
+\chordsoff
+А тут уже без
+вот видите
+\endverse
+
+\beginchorus
+Это припев
+\endchorus
+
+\endsong
+
+
+
+
